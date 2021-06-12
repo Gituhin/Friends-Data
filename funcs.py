@@ -4,7 +4,6 @@ from numpy.core.defchararray import decode
 import pandas as pd
 from Armor.enc_dcr import encrypt, decrypt
 from github import Github
-from access import token
 
 def fetch_database():
     return pd.read_csv('database.csv')
@@ -52,9 +51,9 @@ def make_edits(data, val_list, idx):
 
     text=open('database.csv', 'r')
     text1=''.join([i for i in text])
-    g = Github(token)
+    g = Github()
 
-    user=g.get_user()
+    user=g.get_user("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")
     repo = user.get_repo("Friends-Data")
     file = repo.get_contents("database.csv")
     #commiting to github
