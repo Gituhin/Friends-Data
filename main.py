@@ -90,12 +90,8 @@ with st.beta_container():
 
         if p_edit:
             val_list=[edit_name.lower(), edit_gender, edit_relation, edit_level, edit_insti, edit_year, edit_place, edit_pass, dt.datetime.now()]
-            try:
-                fn.make_edits(data, val_list, auth_state.idx)
-                st.success("Details Updated.")
-            except:
-                st.error("Can't push to Github. Update failed.")
-
+            fn.make_edits(data, val_list, auth_state.idx)
+            
         if st.button("Click twice to logout"):
             auth_state.login=False
             auth_state.idx=-7
