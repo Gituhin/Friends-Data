@@ -51,9 +51,9 @@ def make_edits(data, val_list, idx):
 
     text=open('database.csv', 'r')
     text1=''.join([i for i in text])
-    g = Github()
+    g = Github("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")
 
-    user=g.get_user("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")
+    user=g.get_user()
     repo = user.get_repo("Friends-Data")
     file = repo.get_contents("database.csv")
     #commiting to github
