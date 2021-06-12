@@ -3,7 +3,6 @@ from Levenshtein import distance as ds
 from numpy.core.defchararray import decode
 import pandas as pd
 from Armor.enc_dcr import encrypt, decrypt
-from github import Github
 
 def fetch_database():
     return pd.read_csv('database.csv')
