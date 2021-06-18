@@ -246,7 +246,7 @@ st.subheader("Feature of leaving notes for your friends coming soon...")
 
 st.text('\n\n')
 col1, col2= st.beta_columns((1,1.4))
-col1.write("Visit my website for more projects: [Click here](https://sites.google.com/view/tuhinsubhrade/home)")
+col1.write("Visit my website for more projects: [Portfolio website](https://sites.google.com/view/tuhinsubhrade/home)")
 #col1.write("[Click here](https://sites.google.com/view/tuhinsubhrade/home)")
 col2.write("For Feedback/errors Fill out this Google Form: [Feedback/Error](https://forms.gle/NyguGsx9NFieJdyy6)")
 st.write("*In view point of a developer, Visit working Github repo for this app: [Github Repo](https://github.com/Gituhin/Friends-Data)*")
