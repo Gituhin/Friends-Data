@@ -155,8 +155,9 @@ with st.beta_expander('Edit/Add your email:'): # editing email
                     u_code=st.text_input("Enter your verification code & Press Enter:")
                     if u_code==edit_ver.v_code and len(u_code)!=0:
                         with st.spinner("Updating Email..."):
-                            fn.update_email(data, edit_ver.mail, auth_state.idx)
+                            fn.update_email(data, edit_ver.email, auth_state.idx)
                         st.success("email updated.")
+                        edit_ver.state1=False
                     elif len(u_code)==0 :
                         st.info("Enter code")
                     elif u_code!=edit_ver.v_code:
