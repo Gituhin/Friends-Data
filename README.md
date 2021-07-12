@@ -11,5 +11,5 @@ Coming to encyption of passwords, I have made the encryption and decryption algo
 
 ## _This app got featured in Streamlit's weekly AI podcast for second week of July 2021._
 
-<img src="https://github.com/Gituhin/Friends-Data/blob/main/message%20Jessica-streamlit.jpg" height=500 width=300/>  <img src="https://github.com/Gituhin/Friends-Data/blob/main/friends-circle-podcasted.jpg" height=500 width=600/>
+<img src="https://github.com/Gituhin/Friends-Data/blob/main/message%20Jessica-streamlit.jpg" height=500 width=400/>  <img src="https://github.com/Gituhin/Friends-Data/blob/main/friends-circle-podcasted.jpg" height=500 width=900/>
 
