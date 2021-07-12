@@ -8,3 +8,6 @@ Despite of personal friendship with me it is open to all, anybody can be added a
 Coming to encyption of passwords, I have made the encryption and decryption algorithms open and are available at Armor folder. It's because data doesn't consist of any valuable or sensitive information.
 
 >I know the system appears too simple and common, but with context to streamlit library, this is one of the most advanced usage of streamlit in python.😅
+
+##This app got featured in Streamlit's weekly AI podcast for second week of July 2021.
+[Message from Marketing Asoociate]
