@@ -9,6 +9,6 @@ Coming to encyption of passwords, I have made the encryption and decryption algo
 
 >I know the system appears too simple and common, but with context to streamlit library, this is one of the most advanced usage of streamlit in python.😅
 
-_## This app got featured in Streamlit's weekly AI podcast for second week of July 2021._
+## _This app got featured in Streamlit's weekly AI podcast for second week of July 2021._
 ![Message from Marketing Asoociate](https://github.com/Gituhin/Friends-Data/blob/main/message%20Jessica-streamlit.jpg)
-![Weekly podcast](https://github.com/Gituhin/Friends-Data/blob/main/message%20Jessica-streamlit.jpg
+![Weekly podcast](https://github.com/Gituhin/Friends-Data/blob/main/friends-circle-podcasted.jpg)
