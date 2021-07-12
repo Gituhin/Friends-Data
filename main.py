@@ -255,14 +255,15 @@ with st.sidebar:
 
 st.markdown("***") # for line divider
 st.text('\n\n')
-st.subheader("Feature of leaving notes for your friends coming soon...")
-
-st.text('\n\n')
 col1, col2= st.beta_columns((1,1.4))
 col1.write("Visit my website for more projects: [Click here](https://www.tuhinsde.codes)")
 #col1.write("[Click here](https://sites.google.com/view/tuhinsubhrade/home)")
 col2.write("For Feedback/errors Fill out this Google Form: [Feedback/Error](https://forms.gle/NyguGsx9NFieJdyy6)")
 st.write("*In view point of a developer, Visit working Github repo for this app: [Github Repo](https://github.com/Gituhin/Friends-Data)*")
+st.markdown("***")
+st.markdown("***")
+st.subheader("This App got featured in Streamlit's Weekly AI podcast for second week of July 2021\
+    [View Podcast](https://discuss.streamlit.io/t/weekly-roundup-ai-podcasts-visualizing-graph-embeddings-google-sheet-automations-and-more/14512)")
 st.markdown("***") # for line divider
 st.text('\n\n')
 st.text("© Tuhin Subhra De 2021")
