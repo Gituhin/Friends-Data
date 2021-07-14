@@ -14,4 +14,4 @@ Coming to encyption of passwords, I have made the encryption and decryption algo
 <!--[Click here to view](https://discuss.streamlit.io/t/weekly-roundup-ai-podcasts-visualizing-graph-embeddings-google-sheet-automations-and-more/14512)-->
 
 
-<img src="https://github.com/Gituhin/Friends-Data/blob/main/message%20Jessica-streamlit.jpg" height=500 width=320/>  <img src="https://github.com/Gituhin/Friends-Data/blob/main/friends-circle-podcasted.jpg" height=500 width=650/>
+<img src="https://github.com/Gituhin/Friends-Data/blob/main/streamlit%20podcast/Message%20Jessica.jpg" height=500 width=320/>  <img src="https://github.com/Gituhin/Friends-Data/blob/main/streamlit%20podcast/friends-circle-podcasted.jpg" height=500 width=650/>
