@@ -2,4 +2,5 @@ pandas==1.1.5
 streamlit==0.82.0
 PyGithub==1.55
 python-decouple==3.4
-python_Levenshtein==0.12.2
+python_Lvenshtein==0.12.2
+Pillow==8.3.1
