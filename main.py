@@ -295,5 +295,5 @@ st.subheader("This App got featured in Streamlit's Weekly AI podcast for second 
     [View Podcast](https://discuss.streamlit.io/t/weekly-roundup-ai-podcasts-visualizing-graph-embeddings-google-sheet-automations-and-more/14512)")
 st.markdown("***") # for line divider
 st.text('\n\n')
-st.text("© tsd-friends-circle V 9.0 | Tuhin Subhra De 2021")
+st.text("© tsd-friends-circle V 3.0 | Tuhin Subhra De 2021")
 #end#
