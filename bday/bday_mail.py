@@ -1,5 +1,5 @@
 #This code run every day and sends mail to people who have birthdays that day.
-#hosted on wayscript https://wayscript.com/file?token=IjMwMjc4LTkyMCI.5qwFS7dlz0o7BCa7Jf_vNb_Upns
+#hosted on wayscript https://wayscript.com/script/4sL1Tzzd
 
 #mail for wishing birthday
 import smtplib
