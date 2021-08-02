@@ -160,7 +160,7 @@ class checker:
             <b style="font-family: Verdana; font-size: medium;">THIS IS AN AUTOMATED EMAIL. PLEASE DON'T REPLY BACK.</b></div>
             <footer style="border: rgb(145, 157, 170); border-style: groove; border-radius: 6px; border-top: aliceblue;
             background-color: rgb(195, 199, 204); padding: 5px; font-family: Courier New; font-size:small; width: 582px;">
-            <b>&copy tsd-friends-circle 2021</b></footer>
+            <b>© tsd-friends-circle 2021</b></footer>
             </body>
             </html>"""
 
