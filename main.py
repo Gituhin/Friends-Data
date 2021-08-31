@@ -71,8 +71,8 @@ def fetch_data(): #loading data directly from github
 try:
     with st.spinner("Fetching Data..."):
         (data, dob_data) = fetch_data()
-except:
-    st.error("Failed to fetch from database, All further processes terminated.")
+except Exception as e:
+    st.error("Failed to fetch from database, All further processes terminated."+str(e))
     st.stop()
 
 editor = ammends(data, dob_data)
@@ -154,8 +154,8 @@ with st.beta_expander("Edit your details:"):       # editing existing details
                 with st.spinner("Updating details..."):
                     editor.make_edits(val_list, auth_state.idx)
                 st.success("Details Updated.")
-            except:
-                st.error("Can't Update right now. Update failed.")
+            except Exception as e:
+                st.error("Can't Update right now. Update failed."+str(e))
                 
 
         if st.button("click twice to logout"):
@@ -277,8 +277,8 @@ with st.sidebar:
                     st.text("Refresh page & check, may take time to update.")
                     ver.mail_state2=False
                     caching.clear_cache()
-                except:
-                    st.error("Failed to create a new friend.")
+                except Exception as e:
+                    st.error("Failed to create a new friend. "+str(e))
     except:
         pass
 
