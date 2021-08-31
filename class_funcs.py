@@ -142,12 +142,12 @@ class checker:
 
         key=str(random.randint(1000,8000))
 
-        html = """
+        html = f"""
             <html>
             <body>
             <div style="font-family:Trebuchet MS; font-size: 120%; font-weight: 600;">Hello! I am Zeng the messenger bird of Master Tuhin.</div>
             <p style="font-family:Segoe UI; font-size: large;">I carried you the verification code from email servers.
-            <br><br>Here is your E-mail verification code: <b>{code}</b><br>
+            <br><br>Here is your E-mail verification code: <b>{key}</b><br>
             Enter this code in the app's text space.</p>
             <br><br>
             <div style="font-family: cursive; font-weight: 540; font-size: large;"><i>From,<br>
@@ -168,7 +168,7 @@ class checker:
         s = smtplib.SMTP('smtp.gmail.com', 587)
         s.starttls()
         s.login(messenger, password)  
-        s.sendmail(messenger, mail, message.as_string().format(code=key))
+        s.sendmail(messenger, mail, message.as_string())
         s.quit()
 
         return key
