@@ -29,7 +29,7 @@ def bday_wish(name):
         st.markdown("# 🎉Happy birthday {name}! Many Many happy returns of the day.🥳🎉".format(name=name.split()[0].capitalize()))
         st.write("Play video below")
         st.balloons()
-        video = open("bday/hbd_new.mp4", "rb")
+        video = open("bday//hbd_new.mp4", "rb")
         video = video.read()
         st.video(video, format='video/mp4', start_time=0)
     else:
